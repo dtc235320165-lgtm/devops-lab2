@@ -1,0 +1,7 @@
+Giải pháp tự động hóa cho Bước 2:
+
+Vấn đề: Mất nhiều thời gian (2 giờ) để cài đặt thủ công môi trường cho thành viên mới.
+
+Giải pháp: Sử dụng nguyên tắc Automation của DevOps bằng cách viết một tệp kịch bản tự động hóa (Automation Script) dạng file .sh hoặc .ps1.
+
+Cách thực hiện: Khi có nhân viên mới gia nhập team, thay vì hướng dẫn thủ công từng bước, ta chỉ cần đưa cho họ file script này và chạy một lệnh duy nhất. Script sẽ tự động kiểm tra, tải về phần mềm, cấu hình biến môi trường và cài đặt các gói thư viện cần thiết chỉ trong vòng chưa đầy 2 phút.
